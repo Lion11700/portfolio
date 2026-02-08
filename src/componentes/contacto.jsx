@@ -1,4 +1,6 @@
 import React from "react";
+import linkedIn from '../imagenes/iconoIn.png';
+import git from '../imagenes/github.png';
 
 export default function Contacto() {
   return (
@@ -11,10 +13,10 @@ export default function Contacto() {
         </a>
         <div className="iconos">
             <a className="icono" href="https://github.com/Lion11700" target="_blank">
-                <img src="src/imagenes/github.png" alt="GitHub" />
+                <img src={git} alt="GitHub" />
             </a>
             <a className="icono" href="https://www.linkedin.com/in/alexsanc/" target="_blank">
-                <img src="src/imagenes/iconoIn.png" alt="LinkedIn" />
+                <img src={linkedIn} alt="LinkedIn" />
             </a>
       </div>
     </div>

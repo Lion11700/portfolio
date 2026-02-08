@@ -2,6 +2,7 @@ import foto from '../imagenes/Foto.jpeg';
 import turismo from '../imagenes/turismo.png';
 import tienda from '../imagenes/tienda.png';
 import tiendaJava from '../imagenes/Java-proyect.png';
+import To_Do from '../imagenes/To-Do.png'
 
 function Contenido() {
     return(
@@ -27,6 +28,11 @@ function Contenido() {
                         <a href="https://github.com/Lion11700/PreEntrega-Talento-Tech-React" target="_blank">Ver codigo</a>
                         <a href="https://preentrega-react.netlify.app/" target="_blank">Ver proyecto</a>
                         <img src={tienda} alt="Ecommerce con React" />
+                    </li>
+                    <li>
+                        <h3>To Do List (aplicacion de escritorio)</h3>
+                        <a href="https://github.com/Lion11700/To_Do_List" target="_blank">Ver codigo</a>
+                        <img src={To_Do} alt="Pagina de turismo" />
                     </li>
                     <li>
                         <h3>Ecommerce Con Java + SpringBoot</h3>
