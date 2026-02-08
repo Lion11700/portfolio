@@ -1,7 +1,7 @@
 import foto from '../imagenes/Foto.jpeg';
 import turismo from '../imagenes/Turismo.png';
 import tienda from '../imagenes/Tienda.png';
-import tiendaJava from '../imagenes/java-proyect.png';
+import tiendaJava from '../imagenes/Java-proyect.png';
 import To_Do from '../imagenes/To-Do.png'
 
 function Contenido() {
